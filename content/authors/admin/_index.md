@@ -3,7 +3,7 @@
 title: Ahmed Laouar
 
 # Name pronunciation (optional)
-name_pronunciation: Ahmed Laouar
+# name_pronunciation: Ahmed Laouar
 
 # Full name (for SEO)
 first_name: Ahmed
@@ -33,8 +33,6 @@ profiles:
   - icon: at-symbol
     url: 'laouar@cril.fr'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
     url: https://github.com/ahmedlaouar
   - icon: brands/linkedin
@@ -47,7 +45,7 @@ profiles:
 interests:
   - Artificial Intelligence
   - Description Logics
-  - Information Security & Access Control
+  - Access Control & Security
   - Inconsistency management
   - Explainable AI
   - Large Language Models
@@ -58,7 +56,7 @@ education:
     date_start: 2022-10-01
     date_end: 2025-09-30
     summary: |
-      Thesis on _Managing inconsistency in partially ordered information: application to dynamic and explainable access control models_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Managing inconsistency in partially ordered information: application to dynamic and explainable access control models_. Supervised by [Prof Salem Benferhat([https://example.com](https://scholar.google.com/citations?user=-3kO5x0AAAAJ&hl=en&oi=ao) & [Prof Karim Tabia](https://sites.google.com/site/karimtabiasite/home). Presented papers at JELIA 2023, DL2024 and SUM2024. # with the contributions being published in 2 Springer journals.
     button:
       text: 'Thesis description'
       url: 'https://theses.fr/s348618'
@@ -67,46 +65,58 @@ education:
     date_start: 2021-09-01
     date_end: 2022-09-30
     summary: |
-      GPA: 3.8/4.0
+      GPA: 15.31/20.00
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Deep Learning, Data Mining
+      - Knowledge Representation and Reasoning
+      - Operational Research and Constraint Satisfaction Problems (SAT/CSP)
+      - Dynamics of Decision and Game/Voting Theories
+  - area: Master in Networks & Distributed Systems
+    institution: University of Constantine 2
+    date_start: 2019-09-01
+    date_end: 2021-07-30
     summary: |
-      GPA: 3.4/4.0
+      GPA: 15.56/20.00
+
+      Courses included:
+      - Networks Eng & Networks Security, Mobile & Wireless Networks
+      - Distributed Systems & Algorithms, Data Mining
+      - Paralel Architecture, Advandced Databases & Big Data
+      - Complex Systems, Complexity, Modelling & Simulation
+      - Distributed Operating Systems & Cloud Architecture
+  - area: BSc Computer Science
+    institution: University of Constantine 2
+    date_start: 2016-09-01
+    date_end: 2019-07-31
+    summary: |
+      GPA: 14.3/20.00
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Algorithms, OOP, Logic, Databases
+      - Networks, Software Eng, Operating Systems
+      - Operational Research, Language Theory & Compilation
+      - Information Sec, Web & Android apps development
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: PhD candidate of Artificial Intelligence
+    company_name: CRIL, Univ. Artois & CNRS
+    company_url: 'https://www.cril.univ-artois.fr/'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2022-10-01
+    date_end: '2025-09-30'
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+  - position: Teaching assistant
+    company_name: Faculty of sciences Jean Perrin, Artois University
+    company_url: 'https://www.sciences.univ-artois.fr/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-10-01
+    date_end: 2025-09-30
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Practical work and directed studies of Algorithms using Python.
+      - Practical work and directed studies of Functional programming using Haskell.
+      - Practical work of basics of Web development (HTML/CSS).
+      - Practical work of Unix commands.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -144,11 +154,11 @@ skills:
 
 languages:
   - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 90
+  - name: French
+    percent: 90
+  - name: Arabic
+    percent: 90
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -184,4 +194,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ahmed Laouar is currently a PhD candidate of computer science and applications at the computer science research center of Lens (CRIL). His research interests include Description Logics, inconsistency management/conflict-handling approaches, access control systems and explainable AI. His primary focus is on developing useful and efficient inconsistency-tolerant methods for Access Control Models while providing meaningful and helpful explanations for the descisions made.
