@@ -194,4 +194,4 @@ awards:
 
 ## About Me
 
-Ahmed Laouar is currently a PhD candidate of computer science and applications at the computer science research center of Lens (CRIL). His research interests include Description Logics, inconsistency management/conflict-handling approaches, access control systems and explainable AI. His primary focus is on developing useful and efficient inconsistency-tolerant methods for Access Control Models while providing meaningful and helpful explanations for the descisions made.
+Ahmed Laouar is a PhD candidate in computer science and applications at the Computer Science Research Center of Lens (CRIL). His research interests include Description Logic, inconsistency management/conflict-handling approaches, access control systems, and explainable AI. His primary focus is developing useful and efficient inconsistency-tolerant methods for Access Control Models while providing meaningful and helpful explanations for the decisions made.
