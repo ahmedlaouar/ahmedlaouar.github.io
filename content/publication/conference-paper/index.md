@@ -6,18 +6,20 @@ title: 'An example conference paper'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Sihem Belabbes
+  - Salem Benferhat
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
+  - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
-doi: ''
+date: '2023-09-24T00:00:00Z'
+doi: 'https://doi.org/10.1007/978-3-031-43619-2_25'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2023-09-24T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +27,16 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In 18th European Conference on Logics in Artificial Intelligence 2023, Dresden, Germany, September 20–22, 2023
+publication_short: In JELIA 2023
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Inconsistency in formal ontologies is usually addressed by computing repairs for the dataset. There are several strategies for selecting the repairs used to evaluate queries, with various levels of cautiousness and classes of computational complexity. This paper deals with inconsistent partially ordered lightweight ontologies. It introduces a new method that goes beyond the cautious strategies and that is tractable in the possibilistic setting, where uncertainty concerns only the data pieces. The proposed method, called C{\$}{\$}{\backslash}pi {\$}{\$}$\pi$-repair, proceeds as follows. It first interprets the partially ordered dataset as a family of totally ordered datasets. Then, it computes a single data repair for every totally ordered possibilistic ontology induced from the partially ordered possibilistic ontology. Next, it deductively closes each of these repairs in order to increase their productivity, without introducing conflicts or arbitrary data pieces. Finally, it intersects the closed repairs to obtain a single data repair for the initial ontology. The main contribution of this paper is an equivalent characterization that does not enumerate all the total orders, but also does not suffer from the additional computational cost naturally incurred by the deductive closure. We establish the tractability of our method by reformulating the problem using the notions of dominance and support. Intuitively, the valid conclusions are supported against conflicts by consistent inclusion-minimal subsets of the dataset that dominate all the conflicts. We also study the rationality properties of our method in terms of unconditional and conditional query-answering.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Inconsistency in formal ontologies is usually addressed by computing repairs for the dataset. There are several strategies for selecting the repairs used to evaluate queries, with various levels of cautiousness and classes of computational complexity. This paper deals with inconsistent partially ordered lightweight ontologies. It introduces a new method that goes beyond the cautious strategies and that is tractable in the possibilistic setting, where uncertainty concerns only the data pieces. The proposed method, called C{\$}{\$}{\backslash}pi {\$}{\$}$\pi$-repair, proceeds as follows. It first interprets the partially ordered dataset as a family of totally ordered datasets. Then, it computes a single data repair for every totally ordered possibilistic ontology induced from the partially ordered possibilistic ontology. Next, it deductively closes each of these repairs in order to increase their productivity, without introducing conflicts or arbitrary data pieces. Finally, it intersects the closed repairs to obtain a single data repair for the initial ontology. The main contribution of this paper is an equivalent characterization that does not enumerate all the total orders but also does not suffer from the additional computational cost naturally incurred by the deductive closure. We establish the tractability of our method by reformulating the problem using the notions of dominance and support. Intuitively, the valid conclusions are supported against conflicts by consistent inclusion-minimal subsets of the dataset that dominate all the conflicts. We also study the rationality properties of our method in terms of unconditional and conditional query-answering.
 
 tags:
-  - Large Language Models
+  - JELIA 2023
 
 # Display this page in the Featured widget?
 featured: true
@@ -44,19 +46,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_pdf: 'https://univ-artois.hal.science/hal-04270643/file/Jelia2023.pdf'
+url_code: 'https://github.com/ahmedlaouar/py_reasoner'
+# url_slides: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: [**Unsplash**](ahmedlaouar.me)'
   focal_point: ''
   preview_only: false
 
@@ -65,15 +62,15 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+# projects:
+#  - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
 {{% callout note %}}
