@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: Ahmed Laouar
 date: 2024-12-22
 type: landing
 
