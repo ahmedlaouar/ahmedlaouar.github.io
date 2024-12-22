@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-       Currently in the third year of my PhD at CRIL, my research focuses on the management of contradictory information in lightweight ontologies, as well as on explainable AI, with a specific application context in access control systems. The aim is to develop efficient methods for dealing with possible inconsistencies, while providing clear and useful explanations of the decisions made. I’m also part of the European project \href{https://sites.google.com/view/horizoneurope2020-starwars/}{STARWARS}, which focuses on data management for wastewater networks. I’m working mainly on issues related to inconsistent data and explainability of the proposed solutions.
+       Currently in the third year of my PhD at CRIL, my research focuses on the management of contradictory information in lightweight ontologies, as well as on explainable AI, with a specific application context in access control systems. The aim is to develop efficient methods for dealing with possible inconsistencies, while providing clear and useful explanations of the decisions made. I’m also part of the European project [STARWARS](https://sites.google.com/view/horizoneurope2020-starwars/), which focuses on data management for wastewater networks. I’m working mainly on issues related to inconsistent data and explainability of the proposed solutions.
         Please reach out to collaborate 😃
     design:
       columns: '1'
