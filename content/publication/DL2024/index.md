@@ -14,7 +14,7 @@ publishDate: "2024-08-05T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["conference-paper"]
 
 # Publication name and optional abbreviated publication name.
 publication: "In Proceedings of the 37th International Workshop on Description Logics (DL 2024)"
