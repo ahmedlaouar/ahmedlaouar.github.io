@@ -1,16 +1,18 @@
 ---
-title: "An example journal article"
+title: "How to tractably compute a productive repair for possibilistic partially ordered DL-Lite_R ontologies?"
 authors:
 - admin
-- Robert Ford
+- Sihem Belabbes
+- Salem Benferhat
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- "Equal contribution"
+date: "2025-06-15T00:00:00Z"
+doi: "https://doi.org/10.1016/j.fss.2025.109361"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-06-15T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,13 +20,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "*Fuzzy Sets and Systems*(1)"
+publication_short: "FSS"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The lightweight description logic dialect DL-LiteR offers a framework for specifying and reasoning with formal inconsistent ontologies. Basically, an ontology is a knowledge base composed of a TBox, modelling conceptual knowledge of some domain of interest, and an ABox, asserting factual knowledge about specific entities of the domain. Inconsistency in an ontology is usually handled by evaluating queries over maximal conflict-free subsets of the ABox, called data repairs. Several inconsistency-tolerant semantics, with different levels of cautiousness and computational cost, propose strategies for selecting the repairs to consider when deriving new conclusions from an inconsistent ontology. In this paper, we focus on partially ordered ontologies where a partial order relation captures the reliability levels of the ABox elements. We propose a new tractable method, called “Cπ-repair”, which leverages possibility theory in repairing a partially ordered ABox. It proceeds in four steps as follows. First, the partial order relation is extended into a family of total orders, thus inducing as many compatible totally ordered ABoxes. Second, a single repair is computed for each compatible ABox. Third, these repairs are closed deductively in order to improve their productivity, i.e., to derive more facts. Finally, the closed repairs are intersected to produce a single repair for the initial partially ordered ABox. The main contribution of this paper is an equivalent characterization that determines the validity of the conclusions drawn with the “Cπ-repair” method, but without eliciting the compatible ABoxes or computing their repairs. This allows us to establish the tractability of the method by reformulating the problem using the notions of support for an assertion and dominance over the conflicts that arise between the ABox elements. Essentially, the valid conclusions are those derived from the supports that dominate all conflicts. In the last part of the paper, we explore the rationality properties of our method. We show that increasing repair productivity does not alter the satisfaction of the rationality properties. We also discuss the applicability of our proposed method to languages richer than DL-LiteR and to other inconsistency-tolerant semantics.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
@@ -33,8 +35,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: "https://doi.org/10.1016/j.fss.2025.109361"
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
