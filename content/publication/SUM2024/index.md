@@ -28,7 +28,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In Scalable Uncertainty Management 2024, Palermo, Italy, November 27–29, 2024
-publication_short: In SUM 204
+publication_short: In SUM 2024
 
 abstract: The development of secure and efficient solutions for access control is an important issue in a variety of applications. One of the main challenges is to avoid situations that make access control decision-making impossible. However, avoiding such situations hampers the evolution of the model, as it means either adding a large set of constraints or dealing with each conflict situation. It is, therefore, important to explore methods that deal with conflicts as they arise while providing explanations of the decision taken. In this work, we develop an ontology to manage dynamic and abstract access control rules based on the OrBAC (Organization-Based Access Control) model and integrate an ordering relation over instances of the ontology. Our method takes advantage of the application of inconsistency-tolerant semantics to resolve conflicts and generate explanations for transparency in decisions made. Our results show that the approach efficiently preserves the consistency of the decision taken and provides potentially useful and human-friendly explanations.
 
