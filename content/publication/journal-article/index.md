@@ -30,7 +30,7 @@ abstract: The lightweight description logic dialect DL-LiteR offers a framework 
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 # links:
 # - name: ""
