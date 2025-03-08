@@ -33,7 +33,7 @@ featured: false
 links:
 url_pdf: https://ceur-ws.org/Vol-3739/paper-6.pdf
 url_code: 'https://github.com/ahmedlaouar/py_reasoner'
-# url_poster: '#'
+url_poster: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
