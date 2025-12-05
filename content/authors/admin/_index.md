@@ -104,8 +104,7 @@ work:
     company_logo: ''
     date_start: 2025-10-01
     date_end: ''
-    summary: |
-    Implementating, developping efficient algorithms and experimenting with inconsistency-tolerant query answering from databases and ontologies.
+    summary: Implementating, developping efficient algorithms and experimenting with inconsistency-tolerant query answering from databases and ontologies.
   - position: PhD candidate in Artificial Intelligence
     company_name: CRIL, Univ. Artois & CNRS
     company_url: 'https://www.cril.univ-artois.fr/'
