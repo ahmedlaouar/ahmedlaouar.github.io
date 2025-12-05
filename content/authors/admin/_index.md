@@ -20,18 +20,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD candidate
+role: Reaserch Engineer (Post-doctoral)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: CRIL, Univ. Artois & CNRS
-    url: https://www.cril.univ-artois.fr/
+  - name: LaBRI, UMR 5800 CNRS & University of Bordeaux
+    url: https://www.labri.fr/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:laouar@cril.fr'
+    url: 'mailto:ahmed.laouar@labri.fr'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/ahmedlaouar
@@ -45,8 +45,8 @@ profiles:
 interests:
   - Artificial Intelligence
   - Description Logics
-  - Access Control & Security
   - Inconsistency management
+  - Access Control & Security
   - Explainable AI
   - Large Language Models
 
@@ -56,7 +56,7 @@ education:
     date_start: 2022-10-01
     date_end: 2025-09-30
     summary: |
-      Thesis on _Managing inconsistency in partially ordered information: application to dynamic and explainable access control models_. Supervised by [Prof Salem Benferhat](https://scholar.google.com/citations?user=-3kO5x0AAAAJ&hl=en&oi=ao), [Prof Karim Tabia](https://sites.google.com/site/karimtabiasite/home) and [Dr. Sihem Belabbes](). Presented papers at JELIA 2023, DL2024, and SUM2024.
+      Thesis on _Managing inconsistency in partially ordered information: application to dynamic and explainable access control models_. Supervised by [Prof Salem Benferhat](https://scholar.google.com/citations?user=-3kO5x0AAAAJ&hl=en&oi=ao), [Prof Karim Tabia](https://sites.google.com/site/karimtabiasite/home) and [Dr. Sihem Belabbes](). Presented papers at JELIA 2025, JELIA 2023, DL2024, and SUM2024.
     button:
       text: 'Thesis description'
       url: 'https://theses.fr/s348618'
@@ -98,6 +98,14 @@ education:
       - Operational Research, Language Theory & Compilation
       - Information Sec, Web & Android apps development
 work:
+  - position: Research Engineer (postdoctoral)
+    company_name: LaBRI, UMR 5800 CNRS & Univ. Bordeaux
+    company_url: 'https://www.labri.fr/'
+    company_logo: ''
+    date_start: 2025-10-01
+    date_end: 'ongoing'
+    summary: |
+    Implementating, developping efficient algorithms and experimenting with inconsistency-tolerant query answering from databases and ontologies.
   - position: PhD candidate in Artificial Intelligence
     company_name: CRIL, Univ. Artois & CNRS
     company_url: 'https://www.cril.univ-artois.fr/'
@@ -187,4 +195,6 @@ awards:
 
 ## About Me
 
-Ahmed Laouar is a PhD candidate in computer science and applications at the Computer Science Research Center of Lens (CRIL). His research interests include Description Logic, inconsistency management/conflict-handling approaches, access control systems, and explainable AI. His primary focus is developing useful and efficient inconsistency-tolerant methods for Access Control Models while providing meaningful and helpful explanations for the decisions made.
+Holder of a PhD in computer science from the University of Artois, I am now occupying the position of a postdoctoral research engineer among the [RATIO](https://ratio.labri.fr/) team at the CNRS UMR 5800: [LaBRI](https://www.labri.fr/). My research interests involve dealing with inconsistent and contradictory information, from ontologies to databases, the development of efficient methods to query and manage prioritized and inconsistent large scale databases, in addition to the explanation of reasoning in the presence of inconsistency. My main tasks at the RATIO team include implementating, developping efficient algorithms and experimenting with inconsistency-tolerant query answering methods. 
+
+
