@@ -103,7 +103,7 @@ work:
     company_url: 'https://www.labri.fr/'
     company_logo: ''
     date_start: 2025-10-01
-    date_end: 'ongoing'
+    date_end: ''
     summary: |
     Implementating, developping efficient algorithms and experimenting with inconsistency-tolerant query answering from databases and ontologies.
   - position: PhD candidate in Artificial Intelligence
