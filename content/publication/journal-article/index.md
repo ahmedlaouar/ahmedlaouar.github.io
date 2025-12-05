@@ -37,8 +37,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: "https://doi.org/10.1016/j.fss.2025.109361"
-url_code: ''
+url_pdf: "https://hal.science/hal-05128102v1/document"
+#url_code: ''
 #url_source: ''
 
 # Featured image
